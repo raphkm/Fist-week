@@ -1,0 +1,21 @@
+.contact { color: royalblue;
+}
+.line-content{
+    padding: 5px;
+}
+td {
+    display:table-row
+    vertical-align:baseline;
+}
+.row{
+ border-collapse: seperate;
+ font-variant: normal;
+ font-size: medium;
+ font-weight: initial;
+ color:black;}
+
+ .grad1 {
+    height: 50px;
+    background-color: red;
+    background-image: linear-gradient(to right, red , yellow);
+    width: 40px;} 

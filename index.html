@@ -1,0 +1,51 @@
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Akan</title>
+        <link href="css/ styles.css" rel="stylesheet" type="text/css"></link>
+    </head>
+     <body class="body">
+         <div class="container">
+             <div class="jumbotron">
+               <h1 style="text-align: center;" >Akan Naming System</h1>
+                <p style="text-align: center;">The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
+
+                    This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, slaves in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees. Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and Quamina or Kwame/Kwamina.
+                    
+                    Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.</p>
+                  <p>Our application allows you to be able to know your Akan name based on your date of birth and year in addition allow you to know when your birthday will be depending on the year.</p><br><br> 
+                    <h2>Have a try </h2><br>
+                    <table>
+                     <tr></tr>
+                    </table>
+             
+         <div class="body">
+              <form>
+                <label class="name">Name</label>
+                 <input type="name" placeholder="Name" name="name" id="name" required/>
+                </label><br><br>
+                <label class="day">Day </label>
+                 <input type="number" placeholder="DD" name="day"  id="day" min="1" max="31" required></input> 
+                </label><br><br>
+                <label>Month:</label>
+                 <input type="number" id="month" min="01" max="12" step="1" placeholder="MM" value="" required />
+                </label>
+                <label>Year</label>
+                 <input type="number" id="year" min="1900" max="2099" step="1" placeholder="YYYY" value=""  required /><br><br>
+                <label class="gender">Gender</label>
+                 <div id="gender">
+                  <input type="radio" name="gender" id="gender" value="male" checked> Male <br>
+                    <input type="radio" name="gender" value="female"> Female <br>
+                 </div> <br><br>
+                 <button type="submit" value="Submit"  onclick="results()">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+     </body>
+</html>
+
+   <script src="main.js"></script>

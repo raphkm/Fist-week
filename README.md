@@ -1,7 +1,7 @@
 # Fist-week
 {Portfolio Project}
 {This is a webpage to tell the world more about me}
-Live link "https://raphkm.github.io/Fist-week/tree/gh-pages/First-week/index.html"
+Live link "https://raphkm.github.io/Fist-week/tree/First-week/index.html"
 
 Setup/Installation Requirements
 *Enter your name *Followed by your birthday( month&year) *Press the submit button {You will receive your Akan name anfter submission of your details}
